@@ -4,12 +4,13 @@ int main ()
 {
 
 int i;
-double e_1;
-double e_2;
+double e_1=1;
+double e_2=1;
+int fattoriale = 1;
 
 for(i=1; i<=10; i++) {
-
-e_1 = 1 + 1/i;
+fattoriale*=i;
+e_1 += 1/(fattoriale);
 
 }
 
