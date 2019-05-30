@@ -13,8 +13,8 @@ scanf("%d", &n);
 }
 while(n<0);
 
-for (i=0; i<n; i++){
-  fattoriale *= (n-i);
+for (i=1; i<=n; i++){
+  fattoriale *= i;
 
 }
 
