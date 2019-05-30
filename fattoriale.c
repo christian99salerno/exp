@@ -5,7 +5,7 @@ int main ()
 
 int i;
 int n;
-int fattoriale;
+int fattoriale=1;
 
 do{
 printf("Inserisci un numero per conoscere il suo fattoriale: ");
@@ -13,11 +13,8 @@ scanf("%d", &n);
 }
 while(n<0);
 
-
-fattoriale=n;
-
-for (i=1; i<n; i++){
-  fattoriale *= i;
+for (i=0; i<n; i++){
+  fattoriale *= (n-i);
 
 }
 
